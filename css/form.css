@@ -1,0 +1,149 @@
+.overlay-form {
+  position: fixed;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  height: 0vh;
+  margin-top: 25px;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: -1;
+  opacity: 0;
+  padding: 80px 100px;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: top 500ms ease-in-out, opacity 500ms ease-in-out,
+    height 0ms ease-in-out 500ms;
+}
+.overlay-form .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.overlay-form h1 {
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+}
+.overlay-form p {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  margin: -15px 0px 30px;
+}
+.overlay-form .form-element {
+  margin: 20px 0px;
+}
+.overlay-form label {
+  display: block;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+}
+.overlay-form input {
+  width: 100%;
+  padding: 6px;
+  font-size: 17px;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background: transparent;
+  outline: none;
+  border-radius: 10px;
+}
+.overlay-form button {
+  margin-top: 10px;
+  width: 100px;
+  height: 45px;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.overlay-form1 {
+  position: fixed;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  height: 0vh;
+  margin-top: 25px;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: -1;
+  opacity: 0;
+  padding: 80px 100px;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: top 500ms ease-in-out, opacity 500ms ease-in-out,
+    height 0ms ease-in-out 500ms;
+}
+.overlay-form1 .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.overlay-form1 h1 {
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+}
+.overlay-form1 p {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  margin: -15px 0px 30px;
+}
+.overlay-form1 .form-element {
+  margin: 20px 0px;
+}
+.overlay-form1 label {
+  display: block;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+}
+.overlay-form1 input {
+  width: 100%;
+  padding: 6px;
+  font-size: 17px;
+  border: 2px solid rgb(0, 0, 0);
+  color: #fff;
+  background: transparent;
+  outline: none;
+  border-radius: 10px;
+}
+.overlay-form1 button {
+  margin-top: 10px;
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+body.activeForm .overlay-form {
+  z-index: 2;
+  opacity: 1;
+  top: 0px;
+  height: 100vh;
+  transition: top 500ms ease-in-out, opacity 500ms ease-in-out,
+    height 0ms ease-in-out 0ms;
+}
+
+body.activeForm1 .overlay-form1 {
+  z-index: 2;
+  opacity: 1;
+  top: 0px;
+  height: 100vh;
+  transition: top 500ms ease-in-out, opacity 500ms ease-in-out,
+    height 0ms ease-in-out 0ms;
+}
