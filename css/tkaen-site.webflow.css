@@ -6,7 +6,7 @@ body {
       rgba(64, 0, 107, 0.637),
       rgba(52, 0, 87, 0.404)
     ),
-    url('../images/bg_main.jpg');
+    url('../images/bg_90.jpg');
   background-repeat: repeat;
   background-position: center center;
   /* background-size: 100% 100%; */
@@ -1207,16 +1207,26 @@ input {
 
 #Users {
   background-color: #fff;
+  background-image: linear-gradient(
+      rgb(39,10,79),
+      rgba(52, 0, 87, 0.445)
+    ),
+    url('../images/bg_91.jpg');
+  background-size: cover;
+
+
   margin-top: 200px;
 }
 
 #Users h1 {
-  color: #b86bfe;
+  color: #fff;
   font-size: 80px;
 }
 
 .user-paragraph {
-  color: #491e70;
+  font-size: 2.4rem;
+  line-height: 2;
+  color: #ffffff;
 }
 .heading-container {
   align-items: center;
@@ -1227,19 +1237,20 @@ input {
 }
 .sec3-header-1 {
   padding-bottom: 3.5rem;
-  color: #491e70;
+  color: #ffffff;
 }
 
 .sec3-header {
-  color: #491e70;
+  color: #ffffff;
 }
 .sec3-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
 }
-
-.main-container {
+.num-container .fas {
+  font-size: 4rem;
+  color: #fff;
 }
 
 .num-container i {
@@ -1461,9 +1472,15 @@ input {
 
 #Recap {
   background-color: #fff;
+  background-image: linear-gradient(
+      rgb(39,10,79),
+      rgba(52, 0, 87, 0.76)
+    ),
+    url('../images/bg_92.jpg');
+  background-size: cover;
 }
 #Recap h2 {
-  color: #b86bfe;
+  color: #ffffff;
 }
 .recap-title {
   padding-top: 25px;
@@ -1498,7 +1515,7 @@ input {
   left: 0;
   margin-left: 8px;
   background: #ffffff00;
-  color: #491e70;
+  color: #ffffff;
   border-radius: 50%;
   vertical-align: middle;
 }
@@ -1507,7 +1524,13 @@ input {
   font-size: 16px;
   line-height: 22px;
   padding-top: 14px;
-  color: #491e70;
+  color: #ffffff;
+}
+
+div .recap-icon:hover {
+  transition: transform .3s ease-in-out;
+  transform: scale(1.5);
+  cursor: pointer;
 }
 
 .recap-line {
@@ -2562,3 +2585,75 @@ input {
   font-style: normal;
   font-display: swap;
 }
+
+
+@media screen and (max-width: 768px) { 
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+.logo{
+  width: 80%;
+  height: 800%;
+
+}
+
+.section-title{
+  font-size: 3.4rem !important;
+}
+.user-paragraph {
+  font-size: 1.4rem;
+  line-height: 2;
+
+}
+
+.sec3-header {
+  padding-bottom: .2rem !important;
+  font-size: 1.5rem 
+
+}
+
+.sec3-header-1 {
+  padding-bottom: .2rem !important;
+  font-size: 1.5rem 
+}
+
+
+.num-container .fas {
+  font-size: 2rem;
+  color: #fff;
+}
+.who-can-use-tkaen .sec3-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+}
+
+
+.info-card{
+  background: rgba( 39, 10, 79, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+
+.divider{
+  background: rgba( 39, 10, 79, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background-image: linear-gradient(black 33%, rgba(255,255,255,0) 0%);
+  height: 120vh;
+}
+
+

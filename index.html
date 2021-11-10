@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Oct 25 2021 09:03:24 GMT+0000 (Coordinated Universal Time)  -->
+
 <html
   data-wf-page="61766aa9d044c4dd58540321"
   data-wf-site="61766aa9d044c41f7654031e"
 >
   <head>
     <meta charset="utf-8" />
-    <title>StartApp - Webflow HTML Website Template</title>
+    <title>Tkaen - Connect with buyer and form communities</title>
     <meta
       content="StartApp is a modern, dark-themed Webflow template that allows you to showcase your app. Let your users learn more about its features and show them your pricing plans."
       name="description"
     />
     <meta
-      content="StartApp - Webflow HTML Website Template"
+      content="Tkaen - Connect with buyer and form communities"
       property="og:title"
     />
     <meta
@@ -21,7 +20,7 @@
       property="og:description"
     />
     <meta
-      content="StartApp - Webflow HTML Website Template"
+      content="Tkaen - Connect with buyer and form communities"
       property="twitter:title"
     />
     <meta
@@ -198,7 +197,7 @@
             <h1 class="section-title">Who can use <b>Tkaen</b>?</h1>
           </div>
           <p class="user-paragraph">Anyone with an interest to sell their talents and e-commerce users who love easy and quick shopping</p>
-          <div class="main-container">
+          <div class="main-container who-can-use-tkaen">
             <div class="sec3-container">
               <div class="business-owners">
                 <div class="num-container">
@@ -236,7 +235,6 @@
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
       </div>
@@ -408,7 +406,7 @@
             <p class="recap-text">Increase business</p>
           </div>
         </div>
-        <div class="recap-line"></div>
+        <!-- <div class="recap-line"></div> -->
       </div>
     </section>
     <section
@@ -416,40 +414,36 @@
       data-w-id="0362707a-08f1-6aa5-8276-3fbf99eab3cd"
       class="section with-heading wf-section"
     >
-      <div class="container">
+      <div class="container tkaen-work">
         <h2 class="section-title">How Tkaen works</h2>
         <div class="info-flex">
           <div
-            class="info-block"
-          >
+            class="info-block">
             <!-- <h1 class="info-block-text1">Vendor Info</h1> -->
-            <div class="info-card v1">
+            <div
+            class="info-card v1">
               <h3>Vendors</h3>
               <!-- <i class="fas fa-store"></i> -->
               <img class="info-img" src="./images/Vendor_1.png" alt="">
-              
             </div>
             <div class="info-card v2">
               <h3>Sign Up</h3>
               <!-- <i class="fas fa-pen-nib"></i> -->
               <img class="info-img" src="./images/Vendor_2.png" alt="">
-              
             </div>
             <div class="info-card v3">
               <h3>Enlist Products</h3>
               <!-- <i class="fas fa-clipboard-list"></i> -->
               <img class="info-img" src="./images/Vendor_3.png" alt="">
-              
+
             </div>
             <div class="info-card v4">
               <h3>Products Go live</h3>
               <img class="info-img" src="./images/Vendor_4.png" alt="">
-              
             </div>
             <div class="info-card v5">
               <h3>Customer Makes Purchase</h3>
               <img class="info-img" src="./images/Vendor_5.png" alt="">
-              
             </div>
           </div>
           <div class="divider"></div>
@@ -461,29 +455,24 @@
               <h3>Buyers</h3>
               <!-- <i class="fas fa-users"></i> -->
               <img class="info-img" src="./images/Buyer_1.png" alt="">
-              
             </div>
             <div class="info-card b2">
               <h3>Sign Up</h3>
               <!-- <i class="fas fa-pen-nib"></i> -->
               <img class="info-img" src="./images/Buyer_2.png" alt="">
-              
             </div>
             <div class="info-card b3">
               <h3>Add Like Product to Cart</h3>
               <!-- <i class="fas fa-shopping-cart"></i> -->
               <img class="info-img" src="./images/Buyer_3.png" alt="">
-              
             </div>
             <div class="info-card b4">
               <h3>Vendor gets notified</h3>
               <img class="info-img" src="./images/Buyer_4.png" alt="">
-              
             </div>
             <div class="info-card b5">
               <h3>Finalise your Purchase</h3>
               <img class="info-img" src="./images/Buyer_5.png" alt="">
-              
             </div>
           </div>
         </div>
@@ -632,5 +621,19 @@
     <script src="js/form.js"></script>
     <script src="js/webflow.js" type="text/javascript"></script>
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".info-card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.5,
+      });
+      
+      //It also supports NodeList
+      //VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+
+
   </body>
 </html>
