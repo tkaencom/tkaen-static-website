@@ -478,65 +478,75 @@
         </div>
       </div>
     </section>
-    <div class="overlay-form tkaen-form">
-      <div class="close-btn" onclick="toggleForm()">&times;</div>
-      <h1>Interested in Selling your product?</h1>
-      <p>Join our community</p>
-      <div class="form-element">
-        <label for="fullname">Fullname</label>
-        <input type="text" id="fullname">
-      </div>
-      <div class="form-element">
-        <label for="email">Email</label>
-        <input type="email" id="email">
-      </div>
-      <div class="form-element">
-        <label for="b-type">Type of Business</label>
-        <input type="text" id="b-type">
-      </div>
-      <div class="form-element">
-        <label for="linkedin">Linkedin</label>
-        <input type="text" id="linkedin">
-      </div>
-      <div class="form-element">
-        <label for="message">Message</label>
-        <textarea type="text" id="message"></textarea>
-      </div>
-      <div class="form-element">
-        <button>Send</button>
-      </div>
-    </div>
-    <div class="overlay-form1 tkaen-form">
-      <div class="close-btn" onclick="toggleForm1()">&times;</div>
-      <h1>Interested in using our platform to buy?</h1>
-      <p>Join our community</p>
-      <div class="form-element">
-        <label for="fullname">Fullname</label>
-        <input type="text" id="fullname">
-      </div>
-      <div class="form-element">
-        <label for="email">Email</label>
-        <input type="email" id="email">
-      </div>
-      <div class="form-element">
-        <label for="message">Message</label>
-        <textarea type="text" id="message"></textarea>
-      </div>
-      <div class="form-element">
-        <button>Send</button>
-      </div>
-    </div>
-    <section id="Subscribe" class="subscribe-section">
-      <div class="subscribe-section">
-        <div class="container">
-          <div class="detail-head">
-            <h1 class="detail-head-text">Subscribe</h1>
-            <p>Subscribe to our Newsletter for everything Tkaen, with updates on new Vendors, software updates, features & much more !</p>
-            <input type="email" id="detail-email" autocomplete="off">
-            <input type="submit" value="Sign Up" id="detail-email-btn">
-          </div>
+    <form id="business-form">
+      <div class="overlay-form tkaen-form">
+        <div class="close-btn" onclick="toggleForm()">&times;</div>
+        <h1>Interested in Selling your product?</h1>
+        <p>Join our community</p>
+        <div class="form-element">
+          <label for="name">Fullname</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div class="form-element">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="form-element">
+          <label for="b-type">Type of Business</label>
+          <input type="text" id="b-type" name="type_of_business">
+        </div>
+        <div class="form-element">
+          <label for="linkedin">Linkedin</label>
+          <input type="text" id="linkedin" name="linkedin">
+        </div>
+        <div class="form-element">
+          <label for="message">Message</label>
+          <textarea type="text" id="message" name="comment"></textarea>
+        </div>
+        <div class="form-element">
+          <button>Send</button>
         </div>
       </div>
+    </form>
+    <form id="buyer-form">
+      <div class="overlay-form1 tkaen-form">
+        <div class="close-btn" onclick="toggleForm1()">&times;</div>
+        <h1>Interested in using our platform to buy?</h1>
+        <p>Join our community</p>
+        <div class="form-element">
+          <label for="fullname">Fullname</label>
+          <input type="text" id="fullname-buyer" name="name">
+        </div>
+        <div class="form-element">
+          <label for="email">Email</label>
+          <input type="email" id="email-buyer" name="email">
+        </div>
+        <div class="form-element">
+          <label for="message">Message</label>
+          <textarea type="text" id="message-buyer" name="comment"></textarea>
+        </div>
+        <div class="form-element">
+          <button>Send</button>
+        </div>
+      </div>
+    </form>
+    
+    <section id="Subscribe" class="subscribe-section">
+      <form id="subscribe-form">
+      <div class="subscribe-section">
+          <div class="container">
+            <div class="detail-head">
+              
+              <h1 class="detail-head-text">Subscribe</h1>
+              <p>Subscribe to our Newsletter for everything Tkaen, with updates on new Vendors, software updates, features & much more !</p>
+              
+              <input type="email" id="detail-email" autocomplete="off" name="email">
+              <button id="detail-email-btn">Sign up</button>
+              
+            </div>
+          </div>
+      </div>
+    </form>
     </section>
     <div class="details-container" >
 

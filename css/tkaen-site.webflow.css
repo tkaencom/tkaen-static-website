@@ -649,22 +649,19 @@ figcaption {
 #Subscribe {
   height: 100vh;
   background-image: linear-gradient(
-    rgba(64, 0, 107, 0.637),
-    rgba(52, 0, 87, 0.404)
-  ),
-  url('../images/bg_93.jpg');
+      rgba(64, 0, 107, 0.637),
+      rgba(52, 0, 87, 0.404)
+    ),
+    url('../images/bg_93.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   height: 100vh;
-
 }
-
-
 
 .subscribe-section h1 {
   color: #ffffff;
@@ -673,29 +670,26 @@ figcaption {
   /* margin-bottom: 24px; */
 }
 
-
 .subscribe-section p {
   width: 100%;
   color: #ffffff !important;
   line-height: 2rem;
-  font-size:  2.5vw;
+  font-size: 2.5vw;
   font-weight: bold;
-
 }
-
 
 #detail-email {
   width: 30vw;
   height: 65px;
   border-radius: 24px;
   outline: none;
-  border: 3px solid #491e70;;
+  border: 3px solid #491e70;
   padding-left: 0.5rem;
   font-size: 2rem;
   margin-bottom: 1.4rem;
   text-align: center;
   margin-top: 12px;
-  color: #000000;
+  color: #000000 !important;
 }
 
 #detail-email::placeholder {
@@ -737,9 +731,8 @@ figcaption {
   text-transform: uppercase;
 }
 
-
-.details-heading{
- margin: 10px;;
+.details-heading {
+  margin: 10px;
 }
 
 .detail-link {
@@ -840,12 +833,9 @@ input {
   transition: all 0.4s ease-out;
 }
 
-
-
 .heading-2 {
   position: relative;
 }
-
 
 .detail-email-form {
   position: relative;
@@ -901,8 +891,6 @@ input {
   -ms-flex: 1;
   flex: 1;
 }
-
-
 
 .details-text a {
   color: hsla(0, 0%, 100%, 0.75);
@@ -1063,7 +1051,6 @@ input {
   line-height: 20px;
   font-weight: 500;
   text-decoration: none;
-
 }
 
 .style-guide-text {
@@ -1159,10 +1146,7 @@ input {
 
 #Users {
   background-color: #fff;
-  background-image: linear-gradient(
-      rgb(39,10,79),
-      rgba(52, 0, 87, 0.445)
-    ),
+  background-image: linear-gradient(rgb(39, 10, 79), rgba(52, 0, 87, 0.445)),
     url('../images/bg_91.jpg');
   background-size: cover;
   margin-top: 200px;
@@ -1199,7 +1183,7 @@ input {
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
 }
-.sec3-container h2{
+.sec3-container h2 {
   font-size: 2rem !important;
 }
 
@@ -1425,10 +1409,7 @@ input {
 
 #Recap {
   background-color: #fff;
-  background-image: linear-gradient(
-      rgb(39,10,79),
-      rgba(52, 0, 87, 0.76)
-    ),
+  background-image: linear-gradient(rgb(39, 10, 79), rgba(52, 0, 87, 0.76)),
     url('../images/bg_92.jpg');
   background-size: cover;
 }
@@ -1481,7 +1462,7 @@ input {
 }
 
 div .recap-icon:hover {
-  transition: transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -2474,30 +2455,27 @@ div .recap-icon:hover {
   font-display: swap;
 }
 
-
-.info-card{
-  background: rgba( 39, 10, 79, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+.info-card {
+  background: rgba(39, 10, 79, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
   margin-bottom: 3rem;
   cursor: pointer;
 }
 
-
 .divider {
-  background: rgba( 39, 10, 79, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  background: rgba(39, 10, 79, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  background-image: linear-gradient(black 33%, rgba(255,255,255,0) 0%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
   height: 120vh;
 }
-
 
 .details-container {
   position: relative;
@@ -2508,60 +2486,58 @@ div .recap-icon:hover {
   column-gap: 4rem;
 }
 
-.detail-link{
+.detail-link {
   text-decoration: none;
-
 }
 
-.detail-link:hover{
+.detail-link:hover {
   color: #b86bfe;
-  transition: transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   transform: scale(1.2);
 }
-.tkaen-form{
+.tkaen-form {
   margin: 0;
   top: 0;
   left: 0;
   width: 100%;
   background-image: linear-gradient(
-    rgba(64, 0, 107, 0.637),
-    rgba(52, 0, 87, 0.404)
-  ),
-  url('../images/bg_90.jpg');
-
+      rgba(64, 0, 107, 0.637),
+      rgba(52, 0, 87, 0.404)
+    ),
+    url('../images/bg_90.jpg');
 }
 
-.tkaen-form > h1,p, label, input{
+.tkaen-form > h1,
+p,
+label,
+input {
   color: #fff !important;
-
 }
 
-.tkaen-form  input{
+.tkaen-form input {
   border: 0.5px solid #fff !important;
   padding-top: 2%;
   margin-top: 3%;
 }
-.tkaen-form input:focus{
+.tkaen-form input:focus {
   border: 0.5px solid #b86bfe !important;
 }
 
-.close-btn{
+.close-btn {
   color: #fff !important;
 }
 
-.tkaen-form  button{
-background-color: #b86bfe !important;
+.tkaen-form button {
+  background-color: #b86bfe !important;
 }
 
-.tkaen-form p{
+.tkaen-form p {
   padding-top: 5%;
   font-weight: 800;
 }
 
-
-
-@media screen and (min-width: 767px ) and (max-width: 1023px) { 
-  .recap-grid{
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .recap-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -2575,25 +2551,21 @@ background-color: #b86bfe !important;
     justify-content: center;
   }
 
-  .org_logo{
+  .org_logo {
     padding-top: 2rem;
     position: relative;
   }
-
 }
 
-
 @media screen and (min-width: 1024px) {
-  .tkaen-form{
+  .tkaen-form {
     top: 10%;
     left: 10%;
     width: 80%;
-
   }
-  .tkaen-form p{
+  .tkaen-form p {
     padding-top: 1%;
     font-size: 1.5rem;
-
   }
   .tkaen-form {
     overflow-y: scroll;
@@ -2603,34 +2575,31 @@ background-color: #b86bfe !important;
   .tkaen-form {
     padding-top: 0;
   }
-  .tkaen-form  input{
+  .tkaen-form input {
     margin-top: 1%;
-
   }
 }
 
-.tkaen-form textarea{
+.tkaen-form textarea {
   width: 100%;
   height: 30vh;
   background-image: linear-gradient(
-    rgba(64, 0, 107, 0.637),
-    rgba(52, 0, 87, 0.404)
-  ),
-  url('../images/bg_90.jpg')
+      rgba(64, 0, 107, 0.637),
+      rgba(52, 0, 87, 0.404)
+    ),
+    url('../images/bg_90.jpg');
 }
-
 
 .tkaen-form {
   overflow-y: scroll;
 }
 
-@media screen and (max-width: 767px) { 
-
-  .logo{
+@media screen and (max-width: 767px) {
+  .logo {
     width: 80%;
     height: 800%;
   }
-  .section-title{
+  .section-title {
     font-size: 3.4rem !important;
   }
   .user-paragraph {
@@ -2638,18 +2607,18 @@ background-color: #b86bfe !important;
     line-height: 2;
   }
   .sec3-header {
-    padding-bottom: .2rem !important;
-    font-size: 1.5rem 
+    padding-bottom: 0.2rem !important;
+    font-size: 1.5rem;
   }
   .sec3-header-1 {
-    padding-bottom: .2rem !important;
-    font-size: 1.5rem 
+    padding-bottom: 0.2rem !important;
+    font-size: 1.5rem;
   }
   .num-container .fas {
     font-size: 2rem;
     color: #fff;
   }
-  .who-can-use-tkaen .sec3-container{
+  .who-can-use-tkaen .sec3-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -2658,20 +2627,20 @@ background-color: #b86bfe !important;
     justify-items: center;
     align-items: center;
   }
-  .divider{
+  .divider {
     display: none;
   }
-  .info-card{
+  .info-card {
     justify-content: center;
     align-items: center;
     width: 100%;
     text-align: center;
   }
-  .info-card h3{
+  .info-card h3 {
     font-size: 1.5rem;
     line-height: 1.2;
   }
-  .info-card img{
+  .info-card img {
     position: absolute;
     top: 0;
     left: 0;
@@ -2686,11 +2655,11 @@ background-color: #b86bfe !important;
     overflow-wrap: break-word !important;
   }
   #detail-email {
-  width: 60% !important;
+    width: 60% !important;
   }
 
   #detail-email-btn {
-  width: 40% !important;
+    width: 40% !important;
   }
   .details-container {
     height: 100%;
@@ -2698,45 +2667,45 @@ background-color: #b86bfe !important;
     justify-content: center;
   }
 
-  .org_logo{
+  .org_logo {
     padding-top: 2rem;
     position: relative;
   }
-  .tkaen-form{
+  .tkaen-form {
     padding: 10%;
   }
 
-  .tkaen-form > h1,p, label, input{
+  .tkaen-form > h1,
+  p,
+  label,
+  input {
     margin: 0;
     padding: 0;
     width: 100% !important;
     color: #fff !important;
   }
 
-  .footer-row{
+  .footer-row {
     display: grid;
     margin-left: 0;
     margin-right: 0;
   }
-  .footer-grid{
+  .footer-grid {
     width: 100vw !important;
     text-align: left;
   }
-  .footer-grid:nth-child(1){
+  .footer-grid:nth-child(1) {
     order: 2;
   }
   .footer-link-wrap {
     width: 100% !important;
-
   }
-  .copyright-text{
+  .copyright-text {
     padding-left: 0;
     text-align: center;
   }
 
-  .footer-link{
+  .footer-link {
     margin-left: 5%;
   }
-
 }
-
