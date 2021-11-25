@@ -2536,6 +2536,40 @@ input {
   font-weight: 800;
 }
 
+.send-popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+ }
+.msg-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.msg-content{
+  background-color: #b86bfe;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 2%;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+#success-popup-failure .msg-content{
+  background-color: rgba(161, 23, 23, 0.959);
+
+}
+
+.in-active{
+  display: none;
+}
+
+
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .recap-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -2707,5 +2741,9 @@ input {
 
   .footer-link {
     margin-left: 5%;
+  }
+
+  .msg-content{
+    width: 100%;
   }
 }
