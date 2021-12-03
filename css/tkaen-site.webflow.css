@@ -1471,7 +1471,6 @@ text-align: left;
 div .recap-icon:hover {
   transition: transform 0.3s ease-in-out;
   transform: scale(1.1);
-  cursor: pointer;
 }
 
 .recap-line {
@@ -2181,6 +2180,10 @@ div .recap-icon:hover {
   .license-right-block {
     width: 100%;
   }
+  div .recap-icon:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.0);
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2384,6 +2387,10 @@ div .recap-icon:hover {
     max-width: 160px;
     border-radius: 16px;
   }
+  div .recap-icon:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.0);
+  }
 }
 
 #w-node-_65291498-cfe5-3681-04fd-50c126726c0f-58540321 {
@@ -2470,7 +2477,6 @@ div .recap-icon:hover {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin-bottom: 3rem;
-  cursor: pointer;
 }
 
 .divider {
