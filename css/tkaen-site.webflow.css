@@ -212,10 +212,13 @@ figcaption {
   display: flex;
   justify-content: flex-start;
 }
-
-.content-store-img img {
-  padding-right: 24px;
+.content-store-img a {
+  padding-right: 20px;
   width: 50%;
+}
+
+.content-store-img a img {
+  width: 90%;
 }
 
 .style-guide-block {
